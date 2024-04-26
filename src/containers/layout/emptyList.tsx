@@ -23,7 +23,7 @@ const EmptyList = (props: EmptyListProps) => {
       {isResponse === undefined && !isLoading ? (
         <Text
           italic={italic || false}
-          color={color || Colors.primary.taptap_yellow}
+          color={color || Colors.elements.white}
           style={[
             { textAlign: 'center', marginVertical: 10, opacity: 0.5 },
             style,

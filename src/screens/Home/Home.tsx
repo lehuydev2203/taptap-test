@@ -25,7 +25,7 @@ export const HomeScreen = () => {
         />
     }
     return (
-        <Container backgroundColor={Colors.primary.taptap_yellow} barStyle={Enum.StatusBarStyle.lightContent} >
+        <Container touchableWithoutFeedback backgroundColor={Colors.primary.taptap_yellow} barStyle={Enum.StatusBarStyle.lightContent} >
             <View justifyCenter alignCenter padding={Constants.PADDING20}>
                 <Text color={Colors.elements.white}>To-do list</Text>
             </View>
@@ -48,6 +48,8 @@ const ButtonAdd = memo((props: { onPress: any; }) => {
     return <Touchable
         onPress={props.onPress}
         styles={styles.buttonAdd}
+        touchColor={Colors.elements.red_light_500}
+        bgColor={Colors.elements.red_light}
     >
         <View row flex={1} justifyCenter alignCenter gap={8}>
             <Text color={Colors.elements.white}>Tạo task mới</Text>
@@ -66,7 +68,7 @@ const styles = StyleSheet.create({
         borderRadius: 32,
         paddingVertical: Constants.PADDING6,
         paddingHorizontal: Constants.PADDING12,
-        backgroundColor: Colors.elements.red_light,
+        // backgroundColor: Colors.elements.red_light,
     },
     buttonIcon: {
         width: 16,

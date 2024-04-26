@@ -18,7 +18,7 @@ export const TaskCard = (props: {
 }) => {
     const heightContainer = useSharedValue(0);
     const animatedHeight = useDerivedValue(() => {
-        return withTiming(props.isEdit ? 275 : 100, {
+        return withTiming(props.isEdit ? 300 : 100, {
             duration: 500,
         });
     });

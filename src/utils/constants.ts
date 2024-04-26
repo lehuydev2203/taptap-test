@@ -387,7 +387,7 @@ export const Constants = {
   ANIM_DURATION: 500,
   ANIM_DURATION1500: 1500,
 
-  ANIM_DELAY: 200,
+  ANIM_DELAY: 100,
 
   ACTIVE: 1,
   DISABLE: 0.3,

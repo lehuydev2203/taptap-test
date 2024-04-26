@@ -24,7 +24,7 @@ type Props = {
   translucent?: boolean;
 };
 
-export const Container: React.FC<Props> = ({
+export const Container = ({
   children,
   touchableWithoutFeedback,
   containerStyle,
@@ -53,7 +53,7 @@ export const Container: React.FC<Props> = ({
       (transparent && 'transparent') ||
       backgroundColor ||
       Colors.elements.white,
-      paddingBottom: 42
+    paddingBottom: 42
   };
 
   const statusBar = (

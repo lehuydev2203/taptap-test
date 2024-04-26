@@ -35,11 +35,7 @@
     "esModuleInterop": true,
     "skipLibCheck": true,
     // Causes issues with package.json "exports"
-    "forceConsistentCasingInFileNames": false,
-    "baseUrl": "./src",
-    "paths": {
-      "*": ["*", "src/*"]
-    }
+    "forceConsistentCasingInFileNames": false
   },
   "exclude": [
     "node_modules",

@@ -6,7 +6,7 @@ import {
   TextProps,
   TextStyle,
 } from 'react-native';
-import { Fonts } from '../../utils';
+import { Colors, Fonts } from '../../utils';
 
 type TextProp = {
   fontSize?: number;
@@ -64,7 +64,7 @@ const Text = (props: TextProp & TextProps) => {
     extraLarger,
     bold,
     semiBold,
-    color,
+    color = Colors.elements.black,
     center,
     right,
     style,
