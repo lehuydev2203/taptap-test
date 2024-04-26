@@ -1,0 +1,137 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.taptap"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/lehuy/data/dev/react-native/taptap/android/app/src/main/AndroidManifest.xml:3:5-67
+11-->/Users/lehuy/data/dev/react-native/taptap/android/app/src/main/AndroidManifest.xml:3:22-64
+12    <!--
+13    This manifest file is used only by Gradle to configure debug-only capabilities
+14    for React Native Apps.
+15    -->
+16    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+16-->[com.facebook.react:react-android:0.74.0] /Users/lehuy/.gradle/caches/transforms-4/813da8d64613d3a874726517fb776e54/transformed/jetified-react-android-0.74.0-debug/AndroidManifest.xml:16:5-78
+16-->[com.facebook.react:react-android:0.74.0] /Users/lehuy/.gradle/caches/transforms-4/813da8d64613d3a874726517fb776e54/transformed/jetified-react-android-0.74.0-debug/AndroidManifest.xml:16:22-75
+17    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+17-->[com.google.android.gms:play-services-iid:17.0.0] /Users/lehuy/.gradle/caches/transforms-4/5b3519a7abb2888ead3becdedf74bd2c/transformed/jetified-play-services-iid-17.0.0/AndroidManifest.xml:23:5-82
+17-->[com.google.android.gms:play-services-iid:17.0.0] /Users/lehuy/.gradle/caches/transforms-4/5b3519a7abb2888ead3becdedf74bd2c/transformed/jetified-play-services-iid-17.0.0/AndroidManifest.xml:23:22-79
+18
+19    <permission
+19-->[androidx.core:core:1.9.0] /Users/lehuy/.gradle/caches/transforms-4/6621c239d1e00abea0752787fff99403/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+20        android:name="com.taptap.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+20-->[androidx.core:core:1.9.0] /Users/lehuy/.gradle/caches/transforms-4/6621c239d1e00abea0752787fff99403/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+21        android:protectionLevel="signature" />
+21-->[androidx.core:core:1.9.0] /Users/lehuy/.gradle/caches/transforms-4/6621c239d1e00abea0752787fff99403/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+22
+23    <uses-permission android:name="com.taptap.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+23-->[androidx.core:core:1.9.0] /Users/lehuy/.gradle/caches/transforms-4/6621c239d1e00abea0752787fff99403/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+23-->[androidx.core:core:1.9.0] /Users/lehuy/.gradle/caches/transforms-4/6621c239d1e00abea0752787fff99403/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+24    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+24-->[com.android.installreferrer:installreferrer:1.1.2] /Users/lehuy/.gradle/caches/transforms-4/6690ad252d6fa151c81748bc19750f63/transformed/jetified-installreferrer-1.1.2/AndroidManifest.xml:9:5-110
+24-->[com.android.installreferrer:installreferrer:1.1.2] /Users/lehuy/.gradle/caches/transforms-4/6690ad252d6fa151c81748bc19750f63/transformed/jetified-installreferrer-1.1.2/AndroidManifest.xml:9:22-107
+25
+26    <application
+26-->/Users/lehuy/data/dev/react-native/taptap/android/app/src/main/AndroidManifest.xml:5:5-24:19
+27        android:name="com.taptap.MainApplication"
+27-->/Users/lehuy/data/dev/react-native/taptap/android/app/src/main/AndroidManifest.xml:6:7-38
+28        android:allowBackup="false"
+28-->/Users/lehuy/data/dev/react-native/taptap/android/app/src/main/AndroidManifest.xml:10:7-34
+29        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+29-->[androidx.core:core:1.9.0] /Users/lehuy/.gradle/caches/transforms-4/6621c239d1e00abea0752787fff99403/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+30        android:debuggable="true"
+31        android:extractNativeLibs="false"
+32        android:icon="@mipmap/ic_launcher"
+32-->/Users/lehuy/data/dev/react-native/taptap/android/app/src/main/AndroidManifest.xml:8:7-41
+33        android:label="@string/app_name"
+33-->/Users/lehuy/data/dev/react-native/taptap/android/app/src/main/AndroidManifest.xml:7:7-39
+34        android:roundIcon="@mipmap/ic_launcher_round"
+34-->/Users/lehuy/data/dev/react-native/taptap/android/app/src/main/AndroidManifest.xml:9:7-52
+35        android:testOnly="true"
+36        android:theme="@style/AppTheme"
+36-->/Users/lehuy/data/dev/react-native/taptap/android/app/src/main/AndroidManifest.xml:11:7-38
+37        android:usesCleartextTraffic="true" >
+37-->/Users/lehuy/data/dev/react-native/taptap/android/app/src/debug/AndroidManifest.xml:6:9-44
+38        <activity
+38-->/Users/lehuy/data/dev/react-native/taptap/android/app/src/main/AndroidManifest.xml:12:7-23:18
+39            android:name="com.taptap.MainActivity"
+39-->/Users/lehuy/data/dev/react-native/taptap/android/app/src/main/AndroidManifest.xml:13:9-37
+40            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+40-->/Users/lehuy/data/dev/react-native/taptap/android/app/src/main/AndroidManifest.xml:15:9-118
+41            android:exported="true"
+41-->/Users/lehuy/data/dev/react-native/taptap/android/app/src/main/AndroidManifest.xml:18:9-32
+42            android:label="@string/app_name"
+42-->/Users/lehuy/data/dev/react-native/taptap/android/app/src/main/AndroidManifest.xml:14:9-41
+43            android:launchMode="singleTask"
+43-->/Users/lehuy/data/dev/react-native/taptap/android/app/src/main/AndroidManifest.xml:16:9-40
+44            android:windowSoftInputMode="adjustResize" >
+44-->/Users/lehuy/data/dev/react-native/taptap/android/app/src/main/AndroidManifest.xml:17:9-51
+45            <intent-filter>
+45-->/Users/lehuy/data/dev/react-native/taptap/android/app/src/main/AndroidManifest.xml:19:9-22:25
+46                <action android:name="android.intent.action.MAIN" />
+46-->/Users/lehuy/data/dev/react-native/taptap/android/app/src/main/AndroidManifest.xml:20:13-65
+46-->/Users/lehuy/data/dev/react-native/taptap/android/app/src/main/AndroidManifest.xml:20:21-62
+47
+48                <category android:name="android.intent.category.LAUNCHER" />
+48-->/Users/lehuy/data/dev/react-native/taptap/android/app/src/main/AndroidManifest.xml:21:13-73
+48-->/Users/lehuy/data/dev/react-native/taptap/android/app/src/main/AndroidManifest.xml:21:23-70
+49            </intent-filter>
+50        </activity>
+51        <activity
+51-->[com.facebook.react:react-android:0.74.0] /Users/lehuy/.gradle/caches/transforms-4/813da8d64613d3a874726517fb776e54/transformed/jetified-react-android-0.74.0-debug/AndroidManifest.xml:19:9-21:40
+52            android:name="com.facebook.react.devsupport.DevSettingsActivity"
+52-->[com.facebook.react:react-android:0.74.0] /Users/lehuy/.gradle/caches/transforms-4/813da8d64613d3a874726517fb776e54/transformed/jetified-react-android-0.74.0-debug/AndroidManifest.xml:20:13-77
+53            android:exported="false" />
+53-->[com.facebook.react:react-android:0.74.0] /Users/lehuy/.gradle/caches/transforms-4/813da8d64613d3a874726517fb776e54/transformed/jetified-react-android-0.74.0-debug/AndroidManifest.xml:21:13-37
+54        <activity
+54-->[com.google.android.gms:play-services-base:17.0.0] /Users/lehuy/.gradle/caches/transforms-4/6de6ec7da7adc2b6ab38cbb7ed23c2d8/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+55            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+55-->[com.google.android.gms:play-services-base:17.0.0] /Users/lehuy/.gradle/caches/transforms-4/6de6ec7da7adc2b6ab38cbb7ed23c2d8/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+56            android:exported="false"
+56-->[com.google.android.gms:play-services-base:17.0.0] /Users/lehuy/.gradle/caches/transforms-4/6de6ec7da7adc2b6ab38cbb7ed23c2d8/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+57            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+57-->[com.google.android.gms:play-services-base:17.0.0] /Users/lehuy/.gradle/caches/transforms-4/6de6ec7da7adc2b6ab38cbb7ed23c2d8/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+58
+59        <meta-data
+59-->[com.google.android.gms:play-services-basement:17.0.0] /Users/lehuy/.gradle/caches/transforms-4/6c89e088b8119dfbb03d2c66b75b69b6/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+60            android:name="com.google.android.gms.version"
+60-->[com.google.android.gms:play-services-basement:17.0.0] /Users/lehuy/.gradle/caches/transforms-4/6c89e088b8119dfbb03d2c66b75b69b6/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+61            android:value="@integer/google_play_services_version" />
+61-->[com.google.android.gms:play-services-basement:17.0.0] /Users/lehuy/.gradle/caches/transforms-4/6c89e088b8119dfbb03d2c66b75b69b6/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+62
+63        <provider
+63-->[androidx.emoji2:emoji2:1.2.0] /Users/lehuy/.gradle/caches/transforms-4/1f0c06f94521237f79abc32a5f8de33d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+64            android:name="androidx.startup.InitializationProvider"
+64-->[androidx.emoji2:emoji2:1.2.0] /Users/lehuy/.gradle/caches/transforms-4/1f0c06f94521237f79abc32a5f8de33d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+65            android:authorities="com.taptap.androidx-startup"
+65-->[androidx.emoji2:emoji2:1.2.0] /Users/lehuy/.gradle/caches/transforms-4/1f0c06f94521237f79abc32a5f8de33d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+66            android:exported="false" >
+66-->[androidx.emoji2:emoji2:1.2.0] /Users/lehuy/.gradle/caches/transforms-4/1f0c06f94521237f79abc32a5f8de33d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+67            <meta-data
+67-->[androidx.emoji2:emoji2:1.2.0] /Users/lehuy/.gradle/caches/transforms-4/1f0c06f94521237f79abc32a5f8de33d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+68                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+68-->[androidx.emoji2:emoji2:1.2.0] /Users/lehuy/.gradle/caches/transforms-4/1f0c06f94521237f79abc32a5f8de33d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+69                android:value="androidx.startup" />
+69-->[androidx.emoji2:emoji2:1.2.0] /Users/lehuy/.gradle/caches/transforms-4/1f0c06f94521237f79abc32a5f8de33d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+70            <meta-data
+70-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/lehuy/.gradle/caches/transforms-4/de53634973e45ba7b62012cb8e869aee/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+71                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+71-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/lehuy/.gradle/caches/transforms-4/de53634973e45ba7b62012cb8e869aee/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+72                android:value="androidx.startup" />
+72-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/lehuy/.gradle/caches/transforms-4/de53634973e45ba7b62012cb8e869aee/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+73        </provider>
+74
+75        <meta-data
+75-->[com.facebook.soloader:soloader:0.10.5] /Users/lehuy/.gradle/caches/transforms-4/c5277b14eec9cc4a12d0fb10c9f8e27e/transformed/jetified-soloader-0.10.5/AndroidManifest.xml:12:9-14:37
+76            android:name="com.facebook.soloader.enabled"
+76-->[com.facebook.soloader:soloader:0.10.5] /Users/lehuy/.gradle/caches/transforms-4/c5277b14eec9cc4a12d0fb10c9f8e27e/transformed/jetified-soloader-0.10.5/AndroidManifest.xml:13:13-57
+77            android:value="false" />
+77-->[com.facebook.soloader:soloader:0.10.5] /Users/lehuy/.gradle/caches/transforms-4/c5277b14eec9cc4a12d0fb10c9f8e27e/transformed/jetified-soloader-0.10.5/AndroidManifest.xml:14:13-34
+78    </application>
+79
+80</manifest>

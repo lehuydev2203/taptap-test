@@ -1,0 +1,78 @@
+[
+    {
+        "merged": "com.taptap.app-merged_res-28:/drawable-xxhdpi_src_assets_icons_ic_delete.png.flat",
+        "source": "com.taptap.app-res-23:/drawable-xxhdpi/src_assets_icons_ic_delete.png"
+    },
+    {
+        "merged": "com.taptap.app-merged_res-28:/drawable-mdpi_src_assets_icons_ic_pen.png.flat",
+        "source": "com.taptap.app-res-23:/drawable-mdpi/src_assets_icons_ic_pen.png"
+    },
+    {
+        "merged": "com.taptap.app-merged_res-28:/drawable-xhdpi_src_assets_icons_ic_add.png.flat",
+        "source": "com.taptap.app-res-23:/drawable-xhdpi/src_assets_icons_ic_add.png"
+    },
+    {
+        "merged": "com.taptap.app-merged_res-28:/drawable-mdpi_src_assets_icons_ic_delete.png.flat",
+        "source": "com.taptap.app-res-23:/drawable-mdpi/src_assets_icons_ic_delete.png"
+    },
+    {
+        "merged": "com.taptap.app-merged_res-28:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.taptap.app-main-29:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.taptap.app-merged_res-28:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.taptap.app-main-29:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.taptap.app-merged_res-28:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.taptap.app-main-29:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.taptap.app-merged_res-28:/drawable-xxhdpi_src_assets_icons_ic_add.png.flat",
+        "source": "com.taptap.app-res-23:/drawable-xxhdpi/src_assets_icons_ic_add.png"
+    },
+    {
+        "merged": "com.taptap.app-merged_res-28:/drawable-mdpi_src_assets_icons_ic_checkbox_unselect.png.flat",
+        "source": "com.taptap.app-res-23:/drawable-mdpi/src_assets_icons_ic_checkbox_unselect.png"
+    },
+    {
+        "merged": "com.taptap.app-merged_res-28:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "com.taptap.app-main-29:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.taptap.app-merged_res-28:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.taptap.app-main-29:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.taptap.app-merged_res-28:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.taptap.app-main-29:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.taptap.app-merged_res-28:/drawable-xhdpi_src_assets_icons_ic_delete.png.flat",
+        "source": "com.taptap.app-res-23:/drawable-xhdpi/src_assets_icons_ic_delete.png"
+    },
+    {
+        "merged": "com.taptap.app-merged_res-28:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "com.taptap.app-main-29:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.taptap.app-merged_res-28:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.taptap.app-main-29:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.taptap.app-merged_res-28:/drawable_rn_edit_text_material.xml.flat",
+        "source": "com.taptap.app-main-29:/drawable/rn_edit_text_material.xml"
+    },
+    {
+        "merged": "com.taptap.app-merged_res-28:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.taptap.app-main-29:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.taptap.app-merged_res-28:/drawable-mdpi_src_assets_icons_ic_add.png.flat",
+        "source": "com.taptap.app-res-23:/drawable-mdpi/src_assets_icons_ic_add.png"
+    },
+    {
+        "merged": "com.taptap.app-merged_res-28:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.taptap.app-main-29:/mipmap-xxhdpi/ic_launcher_round.png"
+    }
+]

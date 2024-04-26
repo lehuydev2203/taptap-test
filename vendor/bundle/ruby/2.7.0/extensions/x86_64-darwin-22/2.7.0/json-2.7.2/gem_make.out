@@ -1,0 +1,13 @@
+current directory: /Users/lehuy/data/dev/react-native/taptap/vendor/bundle/ruby/2.7.0/gems/json-2.7.2/ext/json
+/Users/lehuy/.rvm/rubies/ruby-2.7.6/bin/ruby -I /Users/lehuy/.rvm/rubies/ruby-2.7.6/lib/ruby/2.7.0 -r ./siteconf20240424-8126-nltu8j.rb extconf.rb
+creating Makefile
+
+current directory: /Users/lehuy/data/dev/react-native/taptap/vendor/bundle/ruby/2.7.0/gems/json-2.7.2/ext/json
+make "DESTDIR=" clean
+
+current directory: /Users/lehuy/data/dev/react-native/taptap/vendor/bundle/ruby/2.7.0/gems/json-2.7.2/ext/json
+make "DESTDIR="
+make: Nothing to be done for `all'.
+
+current directory: /Users/lehuy/data/dev/react-native/taptap/vendor/bundle/ruby/2.7.0/gems/json-2.7.2/ext/json
+make "DESTDIR=" install
